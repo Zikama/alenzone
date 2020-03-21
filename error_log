@@ -1,0 +1,15 @@
+[12-Nov-2019 09:18:47 UTC] PHP Warning:  Unterminated comment starting line 3 in /home/ssuq4wji50y9/public_html/application/views/backend/admin/theme_settings.php on line 3
+[12-Nov-2019 12:32:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function row() on boolean in /home/ssuq4wji50y9/public_html/system/libraries/Session/drivers/Session_database_driver.php:425
+Stack trace:
+#0 /home/ssuq4wji50y9/public_html/system/libraries/Session/drivers/Session_database_driver.php(282): CI_Session_database_driver->_release_lock()
+#1 [internal function]: CI_Session_database_driver->close()
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in /home/ssuq4wji50y9/public_html/system/libraries/Session/drivers/Session_database_driver.php on line 425
+[12-Nov-2019 15:16:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function row() on boolean in /home/ssuq4wji50y9/public_html/system/libraries/Session/drivers/Session_database_driver.php:425
+Stack trace:
+#0 /home/ssuq4wji50y9/public_html/system/libraries/Session/drivers/Session_database_driver.php(282): CI_Session_database_driver->_release_lock()
+#1 [internal function]: CI_Session_database_driver->close()
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in /home/ssuq4wji50y9/public_html/system/libraries/Session/drivers/Session_database_driver.php on line 425
